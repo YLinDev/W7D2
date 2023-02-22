@@ -1,0 +1,24 @@
+html, body {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: cyan;
+}
+
+h1, header, form, nav {
+  display: flex;
+  justify-content: center;
+}
+
+/* header {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+} */

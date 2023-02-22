@@ -1,0 +1,18 @@
+<h1> Log In Here </h1>
+
+<form action="<%= session_url %>" method="POST"> 
+<%= auth_token %>
+
+    <label for="email">Email:</label>
+    <input id="email" name="user[email]" type="text" value="<%= flash[:email] %>"> 
+
+    <br>
+
+    <label for="password">Password:</label>
+    <input id="password" name="user[password]" type="password" value=""> 
+
+    <br>
+
+    <input type="submit" value="Login"> 
+
+</form>
